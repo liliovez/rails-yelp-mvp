@@ -1,0 +1,9 @@
+<h1>Restaurants of italian cuisine</h1>
+
+<ul>
+  <% @restaurants.each do |restaurant| %>
+  <li>
+    <%=restaurant.name%> (<%=restaurant.address%>)
+  </li>
+<% end %>
+</ul>
