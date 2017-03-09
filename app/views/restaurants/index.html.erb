@@ -1,7 +1,7 @@
 
 <h1>Restaurants</h1>
 
-<table>
+<table class="table_restaurants">
   <thead>
     <tr>
       <th>Name</th>
@@ -28,3 +28,13 @@
 <br>
 
 <%= link_to 'New Restaurant', new_restaurant_path %>
+
+<div class="container">
+  <div class="row">
+    <% @restaurants.each do |restaurant| %>
+    <div class="col-xs-12 col-sm-6 col-sm-3">
+      <h3><%= restaurant.name %></h3>
+    </div>
+    <% end %>
+  </div>
+</div>

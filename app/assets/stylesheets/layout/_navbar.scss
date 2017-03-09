@@ -8,9 +8,16 @@
   padding: 0px 30px;
   align-items: center;
   justify-content: space-between;
+  font-family: 'Waiting for the Sunrise', cursive;
 }
 
 /* Optional class to fix the navbar on top */
+
+#home {
+  color: #BC2123;
+}
+
+
 .navbar-wagon-fixed {
   position: fixed;
   left: 0px;

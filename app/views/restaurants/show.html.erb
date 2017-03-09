@@ -5,16 +5,6 @@
   <%= @restaurant.address %>
 </p>
 
-<p>
-  <strong>Description:</strong>
-  <%= @restaurant.description %>
-</p>
-
-<p>
-  <strong>Stars:</strong>
-  <%= @restaurant.stars %>
-</p>
-
 <ul>
   <% @restaurant.reviews.each do |review| %>
     <li>
